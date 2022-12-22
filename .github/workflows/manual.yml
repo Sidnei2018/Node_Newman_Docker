@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: actions/Node_Newman_Docker@v1
+        uses: actions/actions/hello-world-docker-action@v1
         with:
           who-to-greet: Sidnei Santos
           
