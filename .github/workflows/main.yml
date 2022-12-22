@@ -1,4 +1,4 @@
-name: Test-API-Postman
+name: Teste-API-Postman
 on:
   push:
     branches:
