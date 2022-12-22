@@ -1,0 +1,43 @@
+name: Test-API-Postman
+on:
+  push:
+    branches:
+      - main
+jobs:
+  test-api:
+    runs-on: ubuntu-latest
+    steps:
+      
+      - uses: actions/checkout@v2
+
+
+      
+      - name: Install Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+
+
+      
+      - name: Install newman
+        run: |
+          npm install -g newman
+          npm install -g newman-reporter-htmlextra
+      
+      - name: Make Directory for results
+        run: mkdir -p testResults
+
+
+      
+      - name: Run POSTMAN collection on real time
+        run: |
+          newman run Shopping_Frutas.postman_collection.json -e workspace.postman_globals.json 
+      
+      - name: Run POSTMAN collection
+        run: |
+          newman run TesteBackend.postman_collection.json -e workspace.postman_globals.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html --reporter-htmlextra-darkTheme  > testResults/runreport1.html
+      - name: Output the run Details
+        uses: actions/upload-artifact@v2
+        with:
+          name: RunReports
+          path: testResults
