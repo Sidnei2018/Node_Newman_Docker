@@ -1,0 +1,17 @@
+name: My workflow
+ 
+on: [push]
+ 
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: A job to say hello
+    steps:
+      - name: Hello world action step
+        id: hello
+        uses: actions/Node_Newman_Docker@v1
+        with:
+          who-to-greet: Sidnei Santos
+          
+      - name: Get the output time
+        run: echo "The time was ${{ steps.hello.outputs.time }}"
