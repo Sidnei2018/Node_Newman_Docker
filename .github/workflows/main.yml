@@ -31,7 +31,7 @@ jobs:
       
       - name: Run POSTMAN collection on real time
         run: |
-          newman run Shopping_Frutas.postman_collection.json -e workspace.postman_globals.json 
+          newman run TesteBackend.postman_collection.json -e workspace.postman_globals.json 
       
       - name: Run POSTMAN collection
         run: |
