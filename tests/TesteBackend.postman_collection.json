@@ -58,7 +58,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"title\": \"Aprendendo Docker\",\r\n        \"status\": \"Pendente\"\r\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -98,7 +98,7 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3333/tasks/20",
+					"raw": "http://localhost:3333/tasks/32",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -106,7 +106,7 @@
 					"port": "3333",
 					"path": [
 						"tasks",
-						"20"
+						"32"
 					]
 				}
 			},
