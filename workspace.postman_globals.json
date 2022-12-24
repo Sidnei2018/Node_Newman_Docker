@@ -2,12 +2,6 @@
 	"id": "d5856c1a-d3cf-4d37-82f6-e4951f0f18c3",
 	"values": [
 		{
-			"key": "",
-			"value": "",
-			"type": "default",
-			"enabled": false
-		},
-		{
 			"key": "url",
 			"value": "http://localhost:3333/tasks",
 			"type": "default",
