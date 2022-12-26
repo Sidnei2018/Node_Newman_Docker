@@ -5,15 +5,14 @@ consultas GET, POST, PUT e DELETE.
 
 ## Iniciando o processo de configuração do ambiente 🚀<br>
 
-1 - Após a instalação do Docker, acessamos o mesmo pelo terminal do Visual code para baixarmos as imagens que iremos utilizar!<br>
-2 - Dentro de nossa aplicação, baixamos as dependêcias necessárias 🚩<br>
+1 - Após a instalação do Docker, acessamos o mesmo pelo terminal do Visual Studio Code para baixarmos as imagens que iremos utilizar!<br>
 
-Documentação:<br>
+Documentação Docker:<br>
 Para a instalação do Docker no windows = https://docs.docker.com/desktop/install/windows-install/ <br>
-
 Para instalação do Docker no Mac = https://docs.docker.com/desktop/install/mac-install/ <br>
+Para a instalação do Docker no Linux = https://docs.docker.com/desktop/install/linux-install/ <br><br>
 
-Para a instalação do Docker no Linux = https://docs.docker.com/desktop/install/linux-install/ <br>
+2 - Dentro de nossa aplicação, baixamos as dependêcias necessárias 🚩<br>
 
 ![instalando dependencias](https://user-images.githubusercontent.com/28484134/209213005-e0ea4345-f4ec-4732-a844-e92a38a4f4a4.jpg)<br>
 
@@ -29,7 +28,7 @@ Para a instalação do Docker no Linux = https://docs.docker.com/desktop/install
 
 ![criando tabelas](https://user-images.githubusercontent.com/28484134/209213872-879b6a22-89a7-4ee0-80af-b712c703cf61.jpg)<br>
 
-6 - Com o servidor rodando, acessamos a API via Postman para realizar alguns testes 🚩<br>
+6 - Com o servidor rodando, acessamos a API via Postman para realizar alguns testes, inserir, alterar, atualizar e apagar dados 🚩<br>
 
 ![testando a API get](https://user-images.githubusercontent.com/28484134/209214200-cf137e67-6205-4128-8bb6-3cdcb8e42577.jpg)<br>
 
