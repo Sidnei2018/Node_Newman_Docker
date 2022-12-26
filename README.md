@@ -16,7 +16,7 @@ Para a instalação do Docker no Linux = https://docs.docker.com/desktop/install
 
 ![instalando dependencias](https://user-images.githubusercontent.com/28484134/209213005-e0ea4345-f4ec-4732-a844-e92a38a4f4a4.jpg)<br>
 
-3 - Após instaladas as dependências, utilizaremos uma imagem do mysql baixada via docker 🚩<br>
+3 - Após instaladas as dependências, utilizaremos uma imagem do Mysql e uma do Node baixadas via docker 🚩<br>
 
 ![utilizando imagem mysql via docker](https://user-images.githubusercontent.com/28484134/209213221-f3d27ec1-2e47-48ee-b65b-702ae4797b43.jpg)<br>
 
