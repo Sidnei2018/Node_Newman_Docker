@@ -6,7 +6,14 @@ consultas GET, POST, PUT e DELETE.
 ## Iniciando o processo de configuração do ambiente 🚀<br>
 
 1 - Após a instalação do Docker, acessamos o mesmo pelo terminal do Visual code para baixarmos as imagens que iremos utilizar!<br>
-2 - Dentro de nossa aplicação, baixamos as dependêcias necessárias 🚩
+2 - Dentro de nossa aplicação, baixamos as dependêcias necessárias 🚩<br>
+
+Documentação:<br>
+Para a instalação do Docker no windows = https://docs.docker.com/desktop/install/windows-install/ <br>
+
+Para instalação do Docker no Mac = https://docs.docker.com/desktop/install/mac-install/ <br>
+
+Para a instalação do Docker no Linux = https://docs.docker.com/desktop/install/linux-install/ <br>
 
 ![instalando dependencias](https://user-images.githubusercontent.com/28484134/209213005-e0ea4345-f4ec-4732-a844-e92a38a4f4a4.jpg)<br>
 
